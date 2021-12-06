@@ -8,4 +8,5 @@ proizvedeniye=1
 for i in range(4):
     summ=mass[i]+summ
     proizvedeniye=mass[i]*proizvedeniye
-print(summ)
+print("Сумма=", summ)
+print("Произведение=", proizvedeniye)
