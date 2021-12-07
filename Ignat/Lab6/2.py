@@ -23,7 +23,7 @@ for i in range(n):  # Цикл для вывода исходного масси
 max=0
 for i in range(n):
     for j in range(n):
-        l=int(distance(mass[i][0], mass[i][1], mass[j][0], mass[i][1]))
+        l=int(distance(mass[i][0], mass[i][1], mass[j][0], mass[j][1]))
         if max < l:
             max = l
 print(max)
